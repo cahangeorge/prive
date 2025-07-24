@@ -137,6 +137,8 @@ export default function Home() {
                 alt="Experiență culinară exclusivă | Exclusive culinary experience" 
                 width={400}
                 height={300}
+                loading="eager"
+                priority
                 className="w-full h-48 xs:h-56 sm:h-64 object-cover transition-all duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
@@ -147,6 +149,8 @@ export default function Home() {
                 alt="Cină la apus | Sunset dining" 
                 width={400}
                 height={300}
+                loading="eager"
+                priority
                 className="w-full h-48 xs:h-56 sm:h-64 object-cover transition-all duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
@@ -157,6 +161,8 @@ export default function Home() {
                 alt="Experiențe în natură | Nature experiences" 
                 width={400}
                 height={300}
+                loading="eager"
+                priority
                 className="w-full h-48 xs:h-56 sm:h-64 object-cover transition-all duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
@@ -265,6 +271,8 @@ export default function Home() {
                   alt="Experiență cină în peșteră | Cave dining experience" 
                   width={600}
                   height={400}
+                  loading="eager"
+                  priority
                   className="w-full h-[250px] xs:h-[300px] sm:h-[400px] lg:h-[500px] object-cover transition-all duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -291,6 +299,8 @@ export default function Home() {
                   alt="Cină exclusivă la apus | Exclusive sunset dining" 
                   width={600}
                   height={400}
+                  loading="eager"
+                  priority
                   className="w-full h-[250px] xs:h-[300px] sm:h-[400px] lg:h-[500px] object-cover transition-all duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -383,6 +393,8 @@ export default function Home() {
                   alt="Experiențe în natură sălbatică | Wilderness experiences" 
                   width={600}
                   height={400}
+                  loading="eager"
+                  priority
                   className="w-full h-[250px] xs:h-[300px] sm:h-[400px] lg:h-[500px] object-cover transition-all duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -413,6 +425,8 @@ export default function Home() {
                   alt="Experience Bespoke | Experiență Personalizată" 
                   width={600}
                   height={400}
+                  loading="eager"
+                  priority
                   className="w-full h-[250px] xs:h-[300px] sm:h-[400px] lg:h-[500px] object-cover transition-all duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -516,6 +530,8 @@ export default function Home() {
               alt="Experiențe în peșteri | Cave experiences" 
               width={400}
               height={300}
+              loading="eager"
+              priority
               className="w-full h-[200px] xs:h-[250px] sm:h-[300px] object-cover transition-all duration-500 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -532,6 +548,8 @@ export default function Home() {
               alt="Cine exclusive | Exclusive dining" 
               width={400}
               height={300}
+              loading="eager"
+              priority
               className="w-full h-[200px] xs:h-[250px] sm:h-[300px] object-cover transition-all duration-500 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -548,6 +566,8 @@ export default function Home() {
               alt="Experiențe în natură | Nature experiences" 
               width={400}
               height={300}
+              loading="eager"
+              priority
               className="w-full h-[200px] xs:h-[250px] sm:h-[300px] object-cover transition-all duration-500 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -564,6 +584,8 @@ export default function Home() {
               alt="Locații exclusive | Exclusive locations" 
               width={400}
               height={300}
+              loading="eager"
+              priority
               className="w-full h-[200px] xs:h-[250px] sm:h-[300px] object-cover transition-all duration-500 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
