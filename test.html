@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privé Escapes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    /* RESET */
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {font-family: 'Montserrat', sans-serif; background: #000; color: #fff; overflow-x: hidden;}
+
+    /* HERO */
+    header {
+      height: 100vh;
+      background: url('hero-collage.jpg') no-repeat center center/cover;
+      background-attachment: fixed;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+    }
+    header .content {
+      position: relative;
+      z-index: 1;
+      animation: fadeIn 2s ease;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+    .btn {
+      border: 2px solid #D4AF37;
+      color: #D4AF37;
+      padding: 12px 25px;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #D4AF37;
+      color: #000;
+      box-shadow: 0 0 20px rgba(212,175,55,0.8);
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 80px 10%;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 1s ease;
+    }
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #D4AF37;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .text-center {
+      text-align: center;
+      margin-bottom: 50px;
+      color: #ccc;
+      font-size: 1.1rem;
+    }
+
+    /* STEPS */
+    .steps {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      text-align: center;
+    }
+    .steps div {flex: 1; min-width: 200px;}
+    .steps h4 {font-size: 2rem; color: #D4AF37; margin-bottom: 10px;}
+
+    /* GALLERY */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {transform: scale(1.05);}
+
+    /* CONTACT */
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #111;
+      padding: 30px;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 12px;
+      background: #222;
+      border: 1px solid #444;
+      color: #fff;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+    .contact-form label {display: block; margin-bottom: 8px; color: #ccc;}
+    .checkbox {display: flex; align-items: center; margin-bottom: 15px;}
+    .checkbox input {margin-right: 10px;}
+    .contact-form button {
+      width: 100%;
+      background: #D4AF37;
+      border: none;
+      padding: 15px;
+      font-weight: bold;
+      font-size: 1rem;
+      color: #000;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .contact-form button:hover {background: #fff;}
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #333;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    /* ANIMATIONS */
+    @keyframes fadeIn {from{opacity:0;} to{opacity:1;}}
+    @media (max-width: 768px){
+      h1 {font-size: 2rem;}
+      .steps {flex-direction: column;}
+    }
+  </style>
+</head>
+<body>
+  <!-- HERO -->
+  <header>
+    <div class="content">
+      <h1>Experiențe imposibile. Doar pentru cei care își doresc mai mult.</h1>
+      <h2>Impossible experiences. For those who seek more.</h2>
+      <a href="#contact" class="btn">Solicită experiența | Request Your Experience</a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <h3 class="title">Despre Noi | About Us</h3>
+    <p class="text-center">Transformăm locații inaccesibile în experiențe memorabile.<br>We turn inaccessible locations into unforgettable experiences.</p>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section>
+    <h3 class="title">Cum funcționează | How It Works</h3>
+    <div class="steps">
+      <div><h4>1</h4><p>Contact privat (NDA)<br>Private contact (NDA)</p></div>
+      <div><h4>2</h4><p>Alege atmosfera<br>Choose ambiance</p></div>
+      <div><h4>3</h4><p>Noi planificăm TOT<br>We handle everything</p></div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section>
+    <h3 class="title">Experiențe | Experiences</h3>
+    <div class="gallery">
+      <img src="cave-dinner.jpg" alt="Cină în peșteră">
+      <img src="lake-dinner.jpg" alt="Cină pe lac">
+      <img src="cabin-fire.jpg" alt="Cină la cabană">
+      <img src="exclusive-room.jpg" alt="Locație exclusivă">
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h3 class="title">Solicită experiența ta | Request Your Experience</h3>
+    <form class="contact-form">
+      <label for="name">Nume / Name</label>
+      <input type="text" id="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+      <label for="details">Detalii cerințe / Details</label>
+      <textarea id="details" rows="4" required></textarea>
+      <div class="checkbox">
+        <input type="checkbox" id="nda" required>
+        <label for="nda">Sunt de acord să semnez NDA | I agree to sign NDA</label>
+      </div>
+      <button type="submit">Trimite cererea | Submit Request</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>&copy; 2025 Privé Escapes | Where Privacy Becomes Art</footer>
+
+  <script>
+    const sections = document.querySelectorAll('section');
+    window.addEventListener('scroll', () => {
+      const triggerBottom = window.innerHeight * 0.8;
+      sections.forEach(sec => {
+        if(sec.getBoundingClientRect().top < triggerBottom){
+          sec.classList.add('visible');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
