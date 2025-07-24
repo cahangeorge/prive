@@ -1,7 +1,7 @@
 export const runtime = 'edge';
 
 export async function POST(req: Request) {
-  const { name, email, message } = await req.json();
+  const { name, email, details } = await req.json();
 
   const resendApiKey = process.env.RESEND_API_KEY!;
   const fromEmail = process.env.FROM_EMAIL!;
@@ -17,7 +17,7 @@ export async function POST(req: Request) {
       <p><strong>Nume:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
       <p><strong>Mesaj:</strong></p>
-      <p>${message}</p>
+      <p>${details}</p>
     `
   };
 
