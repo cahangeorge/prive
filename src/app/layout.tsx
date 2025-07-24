@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
 import "./globals.css";
+export const runtime = 'edge';
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
