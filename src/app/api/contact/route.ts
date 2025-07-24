@@ -1,37 +1,38 @@
-import { NextRequest, NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+export const runtime = 'edge';
 
-// export const runtime = 'nodejs';
+export async function POST(req: Request) {
+  const { name, email, message } = await req.json();
 
-export async function POST(request: NextRequest) {
-  try {
-    const { name, email, details } = await request.json();
+  const resendApiKey = process.env.RESEND_API_KEY!;
+  const fromEmail = process.env.FROM_EMAIL!;
+  const toEmail = process.env.TO_EMAIL!;
 
-    const transporter = nodemailer.createTransport({
-      host: 'smtp.sendgrid.net',
-      port: 587,
-      auth: {
-        user: 'apikey',
-        pass: process.env.SENDGRID_API_KEY,
-      },
-    });
+  const payload = {
+    from: fromEmail,
+    to: toEmail,
+    subject: `Mesaj nou de la ${name}`,
+    reply_to: email,
+    html: `
+      <h2>Ai primit un mesaj nou</h2>
+      <p><strong>Nume:</strong> ${name}</p>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Mesaj:</strong></p>
+      <p>${message}</p>
+    `
+  };
 
-    const mailOptions = {
-      from: 'office@priveescape.com',  // **Adresa verificată în SendGrid**
-      to: 'office@priveescape.com',      // unde vrei să primești cererile
-      subject: `Cerere contact de la ${name}`,
-      html: `
-        <p><strong>Nume:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Mesaj:</strong><br>${details.replace(/\n/g, '<br>')}</p>
-      `,
-    };
+  const response = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${resendApiKey}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(payload),
+  });
 
-    await transporter.sendMail(mailOptions);
-
-    return NextResponse.json({ message: 'Email trimis cu succes' }, { status: 200 });
-  } catch (error) {
-    console.error('Eroare la trimiterea emailului:', error);
-    return NextResponse.json({ message: 'Eroare la trimiterea emailului' }, { status: 500 });
+  if (!response.ok) {
+    return new Response("Email trimitere eșuată", { status: 500 });
   }
+
+  return new Response(JSON.stringify({ success: true }));
 }
