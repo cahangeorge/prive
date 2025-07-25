@@ -84,12 +84,12 @@ export default function Home() {
     <main className="font-sans">
       
       {/* HERO */}
-      <header className="min-h-screen bg-black flex justify-center items-center text-center relative overflow-hidden hero-bg">
+      <header className="nda-section min-h-screen bg-black flex justify-center items-center text-center relative overflow-hidden hero-bg">
         {/* Background Images */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/60"></div>
           <Image 
-            src="/nature.png" 
+            src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/nature.png" 
             alt="Luxury nature experience" 
             fill
             className="object-cover opacity-30"
@@ -114,16 +114,16 @@ export default function Home() {
 
 
       {/* CONCEPTUL PRIVÉ ESCAPES */}
-      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative bg-gradient-to-br from-[#0a0a0a] to-[#111]">
+      <section className="nda-section px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative bg-gradient-to-br from-[#0a0a0a] to-[#111]">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70"></div>
-          <Image 
-            src="/dinner.png" 
+          {/* <Image 
+            src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/dinner.png" 
             alt="Luxury dining experience" 
             fill
             className="object-cover opacity-20"
-          />
+          /> */}
         </div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-10 xs:mb-12 sm:mb-16 relative z-10">
@@ -156,16 +156,16 @@ export default function Home() {
       </section>
 
       {/* HOW IT WORKS */}
-      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative">
+      <section className="nda-section px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-black/60 to-black/80"></div>
-          <Image 
-            src="/cave.png" 
+          {/* <Image 
+            src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/cave.png" 
             alt="Cave experience background" 
             fill
             className="object-cover opacity-15"
-          />
+          /> */}
         </div>
         <div className="text-center mb-10 xs:mb-12 sm:mb-16">
           <div className="flex justify-center mb-6 xs:mb-8">
@@ -221,12 +221,12 @@ export default function Home() {
       </section>
 
       {/* CAVE EXPERIENCES SECTION */}
-      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative">
+      <section className="nda-section px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-black/75 via-black/55 to-black/75"></div>
           <Image 
-            src="/dinner_on_sunset.png" 
+            src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/cave.jpg" 
             alt="Sunset dining background" 
             fill
             className="object-cover opacity-25"
@@ -274,9 +274,9 @@ export default function Home() {
       </section>
 
       {/* EXCLUSIVE DINING SECTION */}
-      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden">
+      <section className="nda-section px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden m-4 rounded-2xl">
         <Image 
-          src="/dinner.png" 
+          src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/dinner_on_sunset.png" 
           alt="Background" 
           fill
           className="object-cover opacity-30 z-0"
@@ -324,12 +324,12 @@ export default function Home() {
       </section>
 
       {/* NATURE EXPERIENCES SECTION */}
-      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden">
+      <section className="nda-section px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden m-4 rounded-2xl">
         <Image 
-          src="/nature.png" 
+          src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/nature.png" 
           alt="Background" 
           fill
-          className="object-cover opacity-30 z-0"
+          className="object-cover opacity-30 z-0 rounded-2xl"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70 z-10"></div>
@@ -378,12 +378,12 @@ export default function Home() {
 
 
       {/* EXPERIENCE BESPOKE SECTION */}
-      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden">
+      <section className="nda-section px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden m-4 rounded-2xl">
         <Image 
-          src="/dinner_on_sunset.png" 
+          src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/table_1.png" 
           alt="Background" 
           fill
-          className="object-cover opacity-30 z-0"
+          className="object-cover opacity-30 z-0 rounded-2xl"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70 z-10"></div>
@@ -466,14 +466,14 @@ export default function Home() {
       </section>
 
       {/* EXPERIENCES OVERVIEW GALLERY */}
-      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden">
-        <Image 
-          src="/cave.png" 
+      <section className="nda-section px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden m-4 rounded-2xl">
+        {/* <Image 
+          src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/cave.png" 
           alt="Background" 
           fill
-          className="object-cover opacity-30 z-0"
+          className="object-cover opacity-30 z-0 rounded-2xl"
           priority
-        />
+        /> */}
         <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70 z-10"></div>
         <div className="text-center mb-10 xs:mb-14 lg:mb-20 relative z-20">
           <div className="flex justify-center mb-6 xs:mb-8">
@@ -483,23 +483,333 @@ export default function Home() {
           </div>
           <h3 className="title text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center text-[#D4AF37] mb-6 xs:mb-8 sm:mb-12 font-bold leading-tight">Galerie experiențe | Experiences Gallery</h3>
         </div>
-        <div className="max-w-7xl mx-auto text-center relative z-20">
-          <p className="text-gray-300 text-base xs:text-lg sm:text-xl leading-relaxed">
-            Descoperă experiențele noastre exclusive prin galeria de imagini de fundal.
-          </p>
-          <p className="text-gray-400 text-sm xs:text-base italic mt-2">
-            Discover our exclusive experiences through the background image gallery.
-          </p>
+        <div className="max-w-7xl mx-auto relative z-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 xs:gap-8">
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/nature.png" 
+                alt="Nature Experience" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Nature Experiences</h4>
+                <p className="text-sm text-gray-200">Experiențe în natură</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/dinner.png" 
+                alt="Dining Experience" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Exclusive Dining</h4>
+                <p className="text-sm text-gray-200">Cină exclusivă</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/dinner_on_sunset.png" 
+                alt="Sunset Dining" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Sunset Dining</h4>
+                <p className="text-sm text-gray-200">Cină la apus</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/table_1.png" 
+                alt="Bespoke Table Setting" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Bespoke Settings</h4>
+                <p className="text-sm text-gray-200">Aranjamente personalizate</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/cave.jpg" 
+                alt="Cave Adventure" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Cave Adventures</h4>
+                <p className="text-sm text-gray-200">Aventuri în peșteri</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/cheers_in_group.png" 
+                alt="Group Celebration" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Group Celebrations</h4>
+                <p className="text-sm text-gray-200">Sărbători în grup</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/dinner_in_2.png" 
+                alt="Intimate Dinner for Two" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Intimate Dinner for Two</h4>
+                <p className="text-sm text-gray-200">Cină intimă pentru doi</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/dinner_with_women.png" 
+                alt="Ladies Night Out" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Ladies Night Out</h4>
+                <p className="text-sm text-gray-200">Seară pentru doamne</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/drink_with_boys.png" 
+                alt="Gentlemen's Evening" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Gentlemen's Evening</h4>
+                <p className="text-sm text-gray-200">Seară pentru domni</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/party_on_boat.png" 
+                alt="Luxury Yacht Experience" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Luxury Yacht Experience</h4>
+                <p className="text-sm text-gray-200">Experiență pe yacht de lux</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/wedding.png" 
+                alt="Wedding Celebration" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Wedding Celebration</h4>
+                <p className="text-sm text-gray-200">Sărbătoare de nuntă</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/boat_party.jpg" 
+                alt="Luxury Boat Party" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Luxury Boat Party</h4>
+                <p className="text-sm text-gray-200">Petrecere pe yacht de lux</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/cheers_in_car.jpg" 
+                alt="Luxury Car Experience" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Luxury Car Experience</h4>
+                <p className="text-sm text-gray-200">Experiență în mașini de lux</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/dinner_at_beach.jpg" 
+                alt="Beach Dining Experience" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Beach Dining Experience</h4>
+                <p className="text-sm text-gray-200">Cină pe plajă</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/drink_night.jpg" 
+                alt="Night Cocktail Experience" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Night Cocktail Experience</h4>
+                <p className="text-sm text-gray-200">Experiență cocktail de noapte</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/drink_on_mountain.jpg" 
+                alt="Mountain Summit Experience" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Mountain Summit Experience</h4>
+                <p className="text-sm text-gray-200">Experiență pe vârful muntelui</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/helicopter.jpg" 
+                alt="Helicopter Adventure" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Helicopter Adventure</h4>
+                <p className="text-sm text-gray-200">Aventură cu elicopterul</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/lunch_with_chef.jpg" 
+                alt="Private Chef Experience" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Private Chef Experience</h4>
+                <p className="text-sm text-gray-200">Experiență cu chef privat</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/make_the_dinner.jpg" 
+                alt="Culinary Workshop" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Culinary Workshop</h4>
+                <p className="text-sm text-gray-200">Atelier culinar</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/play_in_nature.jpg" 
+                alt="Nature Adventure" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Nature Adventure</h4>
+                <p className="text-sm text-gray-200">Aventură în natură</p>
+              </div>
+            </div>
+            
+            <div className="relative overflow-hidden rounded-xl group">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/shoots_in_pool.jpg" 
+                alt="Luxury Pool Experience" 
+                width={400}
+                height={300}
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h4 className="text-lg font-semibold mb-1">Luxury Pool Experience</h4>
+                <p className="text-sm text-gray-200">Experiență la piscină de lux</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* CONTACT FORM */}
-      <section id="contact" className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden">
+      <section id="contact" className="nda-section px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden m-4 rounded-2xl">
         <Image 
-          src="/dinner.png" 
+          src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/dinner.png" 
           alt="Background" 
           fill
-          className="object-cover opacity-30 z-0"
+          className="object-cover opacity-30 z-0 rounded-2xl"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70 z-10"></div>
@@ -596,12 +906,12 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer className="text-center py-8 xs:py-10 sm:py-12 px-6 xs:px-8 text-gray-500 border-t border-[#333] text-xs xs:text-sm mt-10 xs:mt-12 relative overflow-hidden">
+      <footer className="nda-section text-center py-8 xs:py-10 sm:py-12 px-6 xs:px-8 text-gray-500 border-t text-xs xs:text-sm mt-10 xs:mt-12 relative overflow-hidden m-4 rounded-2xl">
         <Image 
-          src="/nature.png" 
+          src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/nature.png" 
           alt="Background" 
           fill
-          className="object-cover opacity-20 z-0"
+          className="object-cover opacity-20 z-0 rounded-2xl"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-black/70 to-black/80 z-10"></div>

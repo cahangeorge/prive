@@ -12,8 +12,9 @@
 
 # testing
 /coverage
-
 # next.js
+/public/**/*.jpg
+/public/**/*.png
 /.next/
 /out/
 
