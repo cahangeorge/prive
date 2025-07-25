@@ -177,7 +177,16 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 xs:gap-8 sm:gap-10 text-center max-w-6xl mx-auto relative z-10">
           <div className="group bg-gradient-to-br from-[#111] to-[#0a0a0a] p-6 xs:p-8 sm:p-10 rounded-lg xs:rounded-xl border border-[#333] hover:border-[#D4AF37] transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl relative overflow-hidden touch-manipulation">
-            <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            {/* Background Image */}
+            <div className="absolute inset-0 z-0">
+              <Image 
+                src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/prive_qr.png" 
+                alt="QR Code background" 
+                fill
+                className="object-cover opacity-25 group-hover:opacity-35 transition-opacity duration-500"
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-5"></div>
             <div className="relative z-10">
               <div className="w-16 h-16 xs:w-18 xs:h-18 sm:w-20 sm:h-20 mx-auto mb-4 xs:mb-5 bg-gradient-to-br from-[#D4AF37] to-[#B8941F] rounded-full flex items-center justify-center text-black font-bold text-xl xs:text-2xl sm:text-3xl shadow-lg">
                 1
@@ -191,7 +200,16 @@ export default function Home() {
           </div>
           
           <div className="group bg-gradient-to-br from-[#111] to-[#0a0a0a] p-6 xs:p-8 sm:p-10 rounded-lg xs:rounded-xl border border-[#333] hover:border-[#D4AF37] transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl relative overflow-hidden touch-manipulation">
-            <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            {/* Background Image */}
+            <div className="absolute inset-0 z-0">
+              <Image 
+                 src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/prive_box.png" 
+                 alt="Prive box background" 
+                 fill
+                 className="object-cover opacity-25 group-hover:opacity-35 transition-opacity duration-500"
+               />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-5"></div>
             <div className="relative z-10">
               <div className="w-16 h-16 xs:w-18 xs:h-18 sm:w-20 sm:h-20 mx-auto mb-4 xs:mb-5 bg-gradient-to-br from-[#D4AF37] to-[#B8941F] rounded-full flex items-center justify-center text-black font-bold text-xl xs:text-2xl sm:text-3xl shadow-lg">
                 2
@@ -205,7 +223,16 @@ export default function Home() {
           </div>
           
           <div className="group bg-gradient-to-br from-[#111] to-[#0a0a0a] p-6 xs:p-8 sm:p-10 rounded-lg xs:rounded-xl border border-[#333] hover:border-[#D4AF37] transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl relative overflow-hidden touch-manipulation sm:col-span-2 lg:col-span-1">
-            <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            {/* Background Image */}
+            <div className="absolute inset-0 z-0">
+              <Image 
+                 src="https://pub-54a964da83ba4c1e83adcceece9d2d28.r2.dev/prive_card.png" 
+                 alt="Prive card background" 
+                 fill
+                 className="object-cover opacity-25 group-hover:opacity-35 transition-opacity duration-500"
+               />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-5"></div>
             <div className="relative z-10">
               <div className="w-16 h-16 xs:w-18 xs:h-18 sm:w-20 sm:h-20 mx-auto mb-4 xs:mb-5 bg-gradient-to-br from-[#D4AF37] to-[#B8941F] rounded-full flex items-center justify-center text-black font-bold text-xl xs:text-2xl sm:text-3xl shadow-lg">
                 3
