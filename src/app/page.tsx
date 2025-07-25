@@ -615,7 +615,7 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h4 className="text-lg font-semibold mb-1">Gentlemen's Evening</h4>
+                <h4 className="text-lg font-semibold mb-1">Gentlemen&apos;s Evening</h4>
                 <p className="text-sm text-gray-200">Seară pentru domni</p>
               </div>
             </div>
