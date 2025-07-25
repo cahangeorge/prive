@@ -85,6 +85,17 @@ export default function Home() {
       
       {/* HERO */}
       <header className="min-h-screen bg-black flex justify-center items-center text-center relative overflow-hidden hero-bg">
+        {/* Background Images */}
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/60"></div>
+          <Image 
+            src="/nature.png" 
+            alt="Luxury nature experience" 
+            fill
+            className="object-cover opacity-30"
+            priority
+          />
+        </div>
         <div className="absolute inset-0 bg-black/40 z-10"></div>
         <div className={`relative z-30 px-8 xs:px-10 sm:px-12 md:px-16 max-w-5xl mx-auto fade-in transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-8 xs:mb-10 sm:mb-12 font-bold leading-tight float">
@@ -104,8 +115,18 @@ export default function Home() {
 
       {/* CONCEPTUL PRIVÉ ESCAPES */}
       <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative bg-gradient-to-br from-[#0a0a0a] to-[#111]">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-10 xs:mb-12 sm:mb-16">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70"></div>
+          <Image 
+            src="/dinner.png" 
+            alt="Luxury dining experience" 
+            fill
+            className="object-cover opacity-20"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-10 xs:mb-12 sm:mb-16 relative z-10">
             <div className="flex justify-center mb-6 xs:mb-8">
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 rounded-full border-2 border-[#D4AF37] flex items-center justify-center">
                 <svg className="w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8 text-[#D4AF37]" fill="currentColor" viewBox="0 0 20 20">
@@ -130,49 +151,22 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 xs:gap-8 mt-12 xs:mt-14 sm:mt-16">
-            <div className="relative overflow-hidden rounded-lg xs:rounded-xl group touch-manipulation">
-              <Image 
-                src="/dinner.png" 
-                alt="Experiență culinară exclusivă | Exclusive culinary experience" 
-                width={400}
-                height={300}
-                loading="eager"
-                priority
-                className="w-full h-48 xs:h-56 sm:h-64 object-cover transition-all duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-            </div>
-            <div className="relative overflow-hidden rounded-lg xs:rounded-xl group touch-manipulation">
-              <Image 
-                src="/dinner_on_sunset.png" 
-                alt="Cină la apus | Sunset dining" 
-                width={400}
-                height={300}
-                loading="eager"
-                priority
-                className="w-full h-48 xs:h-56 sm:h-64 object-cover transition-all duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-            </div>
-            <div className="relative overflow-hidden rounded-lg xs:rounded-xl group touch-manipulation sm:col-span-2 lg:col-span-1">
-              <Image 
-                src="/nature.png" 
-                alt="Experiențe în natură | Nature experiences" 
-                width={400}
-                height={300}
-                loading="eager"
-                priority
-                className="w-full h-48 xs:h-56 sm:h-64 object-cover transition-all duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-            </div>
-          </div>
+
         </div>
       </section>
 
       {/* HOW IT WORKS */}
       <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-black/60 to-black/80"></div>
+          <Image 
+            src="/cave.png" 
+            alt="Cave experience background" 
+            fill
+            className="object-cover opacity-15"
+          />
+        </div>
         <div className="text-center mb-10 xs:mb-12 sm:mb-16">
           <div className="flex justify-center mb-6 xs:mb-8">
             <svg className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 text-[#D4AF37]" fill="currentColor" viewBox="0 0 20 20">
@@ -181,7 +175,7 @@ export default function Home() {
           </div>
           <h3 className="title text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-[#D4AF37] mb-8 xs:mb-10 sm:mb-14 font-bold leading-tight">Cum funcționează | How It Works</h3>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 xs:gap-8 sm:gap-10 text-center max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 xs:gap-8 sm:gap-10 text-center max-w-6xl mx-auto relative z-10">
           <div className="group bg-gradient-to-br from-[#111] to-[#0a0a0a] p-6 xs:p-8 sm:p-10 rounded-lg xs:rounded-xl border border-[#333] hover:border-[#D4AF37] transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl relative overflow-hidden touch-manipulation">
             <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             <div className="relative z-10">
@@ -228,7 +222,17 @@ export default function Home() {
 
       {/* CAVE EXPERIENCES SECTION */}
       <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative">
-        <div className="max-w-7xl mx-auto">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-gradient-to-br from-black/75 via-black/55 to-black/75"></div>
+          <Image 
+            src="/dinner_on_sunset.png" 
+            alt="Sunset dining background" 
+            fill
+            className="object-cover opacity-25"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xs:gap-10 lg:gap-16 items-center">
             <div className="order-2 lg:order-1">
               <div className="flex items-center mb-6 xs:mb-8">
@@ -264,54 +268,24 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="order-1 lg:order-2">
-              <div className="relative group overflow-hidden rounded-xl xs:rounded-2xl shadow-2xl touch-manipulation">
-                <Image 
-                  src="/cave.png" 
-                  alt="Experiență cină în peșteră | Cave dining experience" 
-                  width={600}
-                  height={400}
-                  loading="eager"
-                  priority
-                  className="w-full h-[250px] xs:h-[300px] sm:h-[400px] lg:h-[500px] object-cover transition-all duration-700 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <div className="absolute bottom-3 xs:bottom-4 sm:bottom-6 left-3 xs:left-4 sm:left-6 right-3 xs:right-4 sm:right-6">
-                  <div className="bg-black/40 backdrop-blur-sm rounded-lg p-3 xs:p-4">
-                    <h5 className="text-white font-semibold text-sm xs:text-base sm:text-lg mb-1">Intimitate absolută</h5>
-                    <p className="text-gray-300 text-xs xs:text-sm">Absolute privacy in nature&#39;s embrace</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
 
       {/* EXCLUSIVE DINING SECTION */}
-      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative bg-gradient-to-br from-[#0a0a0a] to-[#111]">
-        <div className="max-w-7xl mx-auto">
+      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden">
+        <Image 
+          src="/dinner.png" 
+          alt="Background" 
+          fill
+          className="object-cover opacity-30 z-0"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70 z-10"></div>
+        <div className="max-w-7xl mx-auto relative z-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xs:gap-10 lg:gap-16 items-center">
-            <div className="order-1">
-              <div className="relative group overflow-hidden rounded-xl xs:rounded-2xl shadow-2xl touch-manipulation">
-                <Image 
-                  src="/dinner_on_sunset.png" 
-                  alt="Cină exclusivă la apus | Exclusive sunset dining" 
-                  width={600}
-                  height={400}
-                  loading="eager"
-                  priority
-                  className="w-full h-[250px] xs:h-[300px] sm:h-[400px] lg:h-[500px] object-cover transition-all duration-700 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <div className="absolute bottom-3 xs:bottom-4 sm:bottom-6 left-3 xs:left-4 sm:left-6 right-3 xs:right-4 sm:right-6">
-                  <div className="bg-black/40 backdrop-blur-sm rounded-lg p-3 xs:p-4">
-                    <h5 className="text-white font-semibold text-sm xs:text-base sm:text-lg mb-1">Cină la apus pe lac</h5>
-                    <p className="text-gray-300 text-xs xs:text-sm">Sunset lake dining experience</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+
             <div className="order-2">
               <div className="flex items-center mb-4 xs:mb-6">
                 <svg className="w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8 text-[#D4AF37] mr-2 xs:mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -350,8 +324,16 @@ export default function Home() {
       </section>
 
       {/* NATURE EXPERIENCES SECTION */}
-      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative">
-        <div className="max-w-7xl mx-auto">
+      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden">
+        <Image 
+          src="/nature.png" 
+          alt="Background" 
+          fill
+          className="object-cover opacity-30 z-0"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70 z-10"></div>
+        <div className="max-w-7xl mx-auto relative z-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xs:gap-10 lg:gap-16 items-center">
             <div className="order-2 lg:order-1">
               <div className="flex items-center mb-6 xs:mb-8">
@@ -386,26 +368,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="order-1 lg:order-2">
-              <div className="relative group overflow-hidden rounded-xl xs:rounded-2xl shadow-2xl touch-manipulation">
-                <Image 
-                  src="/nature.png" 
-                  alt="Experiențe în natură sălbatică | Wilderness experiences" 
-                  width={600}
-                  height={400}
-                  loading="eager"
-                  priority
-                  className="w-full h-[250px] xs:h-[300px] sm:h-[400px] lg:h-[500px] object-cover transition-all duration-700 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <div className="absolute bottom-3 xs:bottom-4 sm:bottom-6 left-3 xs:left-4 sm:left-6 right-3 xs:right-4 sm:right-6">
-                  <div className="bg-black/40 backdrop-blur-sm rounded-lg p-3 xs:p-4">
-                    <h5 className="text-white font-semibold text-sm xs:text-base sm:text-lg mb-1">Lux în sălbăticie</h5>
-                    <p className="text-gray-300 text-xs xs:text-sm">Luxury in the wilderness</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
@@ -415,29 +378,18 @@ export default function Home() {
 
 
       {/* EXPERIENCE BESPOKE SECTION */}
-      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative bg-gradient-to-br from-[#0a0a0a] to-[#111]">
-        <div className="max-w-7xl mx-auto">
+      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden">
+        <Image 
+          src="/dinner_on_sunset.png" 
+          alt="Background" 
+          fill
+          className="object-cover opacity-30 z-0"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70 z-10"></div>
+        <div className="max-w-7xl mx-auto relative z-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xs:gap-10 lg:gap-16 items-center">
-            <div className="order-1">
-              <div className="relative group overflow-hidden rounded-xl xs:rounded-2xl shadow-2xl touch-manipulation">
-                <Image 
-                  src="/dinner_on_sunset.png" 
-                  alt="Experience Bespoke | Experiență Personalizată" 
-                  width={600}
-                  height={400}
-                  loading="eager"
-                  priority
-                  className="w-full h-[250px] xs:h-[300px] sm:h-[400px] lg:h-[500px] object-cover transition-all duration-700 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <div className="absolute bottom-3 xs:bottom-4 sm:bottom-6 left-3 xs:left-4 sm:left-6 right-3 xs:right-4 sm:right-6">
-                  <div className="bg-black/40 backdrop-blur-sm rounded-lg p-3 xs:p-4">
-                    <h5 className="text-white font-semibold text-sm xs:text-base sm:text-lg mb-1">Experience Bespoke</h5>
-                    <p className="text-gray-300 text-xs xs:text-sm leading-relaxed">Lux fără limite. Experiențe personalizate în cele mai inaccesibile colțuri ale lumii</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+
             <div className="order-2">
               <div className="flex items-center mb-6 xs:mb-8">
                 <svg className="w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8 text-[#D4AF37] mr-3 xs:mr-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -514,8 +466,16 @@ export default function Home() {
       </section>
 
       {/* EXPERIENCES OVERVIEW GALLERY */}
-      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative">
-        <div className="text-center mb-10 xs:mb-14 lg:mb-20">
+      <section className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden">
+        <Image 
+          src="/cave.png" 
+          alt="Background" 
+          fill
+          className="object-cover opacity-30 z-0"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70 z-10"></div>
+        <div className="text-center mb-10 xs:mb-14 lg:mb-20 relative z-20">
           <div className="flex justify-center mb-6 xs:mb-8">
             <svg className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 text-[#D4AF37]" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
@@ -523,84 +483,27 @@ export default function Home() {
           </div>
           <h3 className="title text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center text-[#D4AF37] mb-6 xs:mb-8 sm:mb-12 font-bold leading-tight">Galerie experiențe | Experiences Gallery</h3>
         </div>
-        <div className="gallery max-w-7xl mx-auto grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-3 xs:gap-4 sm:gap-6">
-          <div className="group relative overflow-hidden rounded-lg xs:rounded-xl touch-manipulation">
-            <Image 
-              src="/cave.png" 
-              alt="Experiențe în peșteri | Cave experiences" 
-              width={400}
-              height={300}
-              loading="eager"
-              priority
-              className="w-full h-[200px] xs:h-[250px] sm:h-[300px] object-cover transition-all duration-500 group-hover:scale-110"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="absolute bottom-2 xs:bottom-3 sm:bottom-4 left-2 xs:left-3 sm:left-4 right-2 xs:right-3 sm:right-4">
-                <h4 className="text-white font-semibold text-sm xs:text-base sm:text-lg mb-1">Experiențe în peșteri</h4>
-                <p className="text-gray-300 text-xs xs:text-sm">Cave experiences</p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="group relative overflow-hidden rounded-lg xs:rounded-xl touch-manipulation">
-            <Image 
-              src="/dinner_on_sunset.png" 
-              alt="Cine exclusive | Exclusive dining" 
-              width={400}
-              height={300}
-              loading="eager"
-              priority
-              className="w-full h-[200px] xs:h-[250px] sm:h-[300px] object-cover transition-all duration-500 group-hover:scale-110"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="absolute bottom-2 xs:bottom-3 sm:bottom-4 left-2 xs:left-3 sm:left-4 right-2 xs:right-3 sm:right-4">
-                <h4 className="text-white font-semibold text-sm xs:text-base sm:text-lg mb-1">Cine exclusive</h4>
-                <p className="text-gray-300 text-xs xs:text-sm">Exclusive dining</p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="group relative overflow-hidden rounded-lg xs:rounded-xl touch-manipulation">
-            <Image 
-              src="/nature.png" 
-              alt="Experiențe în natură | Nature experiences" 
-              width={400}
-              height={300}
-              loading="eager"
-              priority
-              className="w-full h-[200px] xs:h-[250px] sm:h-[300px] object-cover transition-all duration-500 group-hover:scale-110"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="absolute bottom-2 xs:bottom-3 sm:bottom-4 left-2 xs:left-3 sm:left-4 right-2 xs:right-3 sm:right-4">
-                <h4 className="text-white font-semibold text-sm xs:text-base sm:text-lg mb-1">Experiențe în natură</h4>
-                <p className="text-gray-300 text-xs xs:text-sm">Nature experiences</p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="group relative overflow-hidden rounded-lg xs:rounded-xl touch-manipulation">
-            <Image 
-              src="/window.svg" 
-              alt="Locații exclusive | Exclusive locations" 
-              width={400}
-              height={300}
-              loading="eager"
-              priority
-              className="w-full h-[200px] xs:h-[250px] sm:h-[300px] object-cover transition-all duration-500 group-hover:scale-110"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="absolute bottom-2 xs:bottom-3 sm:bottom-4 left-2 xs:left-3 sm:left-4 right-2 xs:right-3 sm:right-4">
-                <h4 className="text-white font-semibold text-sm xs:text-base sm:text-lg mb-1">Locații exclusive</h4>
-                <p className="text-gray-300 text-xs xs:text-sm">Exclusive locations</p>
-              </div>
-            </div>
-          </div>
+        <div className="max-w-7xl mx-auto text-center relative z-20">
+          <p className="text-gray-300 text-base xs:text-lg sm:text-xl leading-relaxed">
+            Descoperă experiențele noastre exclusive prin galeria de imagini de fundal.
+          </p>
+          <p className="text-gray-400 text-sm xs:text-base italic mt-2">
+            Discover our exclusive experiences through the background image gallery.
+          </p>
         </div>
       </section>
 
       {/* CONTACT FORM */}
-      <section id="contact" className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative">
-        <div className="text-center mb-10 xs:mb-14 sm:mb-16">
+      <section id="contact" className="px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden">
+        <Image 
+          src="/dinner.png" 
+          alt="Background" 
+          fill
+          className="object-cover opacity-30 z-0"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70 z-10"></div>
+        <div className="text-center mb-10 xs:mb-14 sm:mb-16 relative z-20">
           <div className="flex justify-center mb-6 xs:mb-8">
             <svg className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 text-[#D4AF37]" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
@@ -609,7 +512,7 @@ export default function Home() {
           </div>
           <h3 className="title text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center text-[#D4AF37] mb-6 xs:mb-8 sm:mb-12 font-bold leading-tight">Solicită experiența ta | Request Your Experience</h3>
         </div>
-        <form onSubmit={handleSubmit} className="contact-form max-w-2xl mx-auto">
+        <form onSubmit={handleSubmit} className="contact-form max-w-2xl mx-auto relative z-20">
           <div className="space-y-6 xs:space-y-8">
             <div className="form-group">
               <label htmlFor="name" className="form-label">Nume / Name</label>
@@ -693,8 +596,16 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer className="text-center py-8 xs:py-10 sm:py-12 px-6 xs:px-8 text-gray-500 border-t border-[#333] text-xs xs:text-sm mt-10 xs:mt-12">
-        <div className="max-w-screen-xl mx-auto">
+      <footer className="text-center py-8 xs:py-10 sm:py-12 px-6 xs:px-8 text-gray-500 border-t border-[#333] text-xs xs:text-sm mt-10 xs:mt-12 relative overflow-hidden">
+        <Image 
+          src="/nature.png" 
+          alt="Background" 
+          fill
+          className="object-cover opacity-20 z-0"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-black/70 to-black/80 z-10"></div>
+        <div className="max-w-screen-xl mx-auto relative z-20">
           <p>&copy; 2025 Privé Escapes | Where Privacy Becomes Art</p>
         </div>
       </footer>
