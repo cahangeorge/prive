@@ -949,7 +949,7 @@ export default function Home() {
 
       {/* WHATSAPP CHAT BUTTON */}
       <a 
-        href="https://wa.me/040742829039?text=Salut!%20Sunt%20interesat%20de%20experiențele%20Privé%20Escapes.%20%7C%20Hello!%20I'm%20interested%20in%20Privé%20Escapes%20experiences."
+        href={`https://wa.me/40742829039?text=${encodeURIComponent('Salut! Sunt interesat de experientele Prive Escapes. | Hello! I am interested in Prive Escapes experiences.')}`}
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 group touch-manipulation"
