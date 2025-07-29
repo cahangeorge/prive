@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer className="nda-section text-center py-8 xs:py-10 sm:py-12 px-6 xs:px-8 text-gray-500 border-t text-xs xs:text-sm mt-10 xs:mt-12 relative overflow-hidden m-4 rounded-2xl">
         <Image 
-          src="/nature.png" 
+          src="https://www.priveescape.com/nature.png" 
           alt="Background" 
           fill
           className="object-cover opacity-20 z-0 rounded-2xl"

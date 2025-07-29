@@ -18,154 +18,154 @@ const experiences: Experience[] = [
     id: 1,
     title: "Nature Escape",
     description: "Private forest sanctuary with luxury amenities",
-    image: "/nature.png",
+    image: "https://www.priveescape.com/nature.png",
     category: "Nature"
   },
   {
     id: 2,
     title: "Exclusive Dining",
     description: "Private chef experience in unique locations",
-    image: "/dinner.png",
+    image: "https://www.priveescape.com/dinner.png",
     category: "Dining"
   },
   {
     id: 3,
     title: "Cave Adventure",
     description: "Underground luxury dining experience",
-    image: "/cave.jpg",
+    image: "https://www.priveescape.com/cave.jpg",
     category: "Adventure"
   },
   {
     id: 4,
     title: "Luxury Travel",
     description: "Private transportation to exclusive destinations",
-    image: "/plane.jpg",
+    image: "https://www.priveescape.com/plane.jpg",
     category: "Travel"
   },
   {
     id: 5,
     title: "Car Celebration",
     description: "Exclusive celebrations in luxury vehicles",
-    image: "/cheers_in_car.jpg",
+    image: "https://www.priveescape.com/cheers_in_car.jpg",
     category: "Nightlife"
   },
   {
     id: 6,
     title: "Beach Dining",
     description: "Private beachfront culinary experiences",
-    image: "/dinner_at_beach.jpg",
+    image: "https://www.priveescape.com/dinner_at_beach.jpg",
     category: "Dining"
   },
   {
     id: 7,
     title: "Intimate Dining",
     description: "Private dining experiences for two",
-    image: "/dinner_in_2.jpg",
+    image: "https://www.priveescape.com/dinner_in_2.jpg",
     category: "Dining"
   },
   {
     id: 21,
     title: "Night Drinks",
     description: "Exclusive evening beverage experiences",
-    image: "/drink_night.jpg",
+    image: "https://www.priveescape.com/drink_night.jpg",
     category: "Nightlife"
   },
   {
     id: 22,
     title: "Boat Party",
     description: "Luxury party experiences on water",
-    image: "/party_on_boat.png",
+    image: "https://www.priveescape.com/party_on_boat.png",
     category: "Luxury"
   },
   {
     id: 8,
     title: "Mountain Summit",
     description: "Private mountain peak experiences",
-    image: "/drink_on_mountain.jpg",
+    image: "https://www.priveescape.com/drink_on_mountain.jpg",
     category: "Adventure"
   },
   {
     id: 9,
     title: "Helicopter Tours",
     description: "Exclusive aerial experiences",
-    image: "/helicopter.jpg",
+    image: "https://www.priveescape.com/helicopter.jpg",
     category: "Adventure"
   },
   {
     id: 10,
     title: "Private Chef",
     description: "Personal culinary artistry",
-    image: "/make_the_dinner.jpg",
+    image: "https://www.priveescape.com/make_the_dinner.jpg",
     category: "Dining"
   },
   {
     id: 11,
     title: "Culinary Workshop",
     description: "Hands-on gourmet cooking experiences",
-    image: "/lunch_with_chef.jpg",
+    image: "https://www.priveescape.com/lunch_with_chef.jpg",
     category: "Dining"
   },
   {
     id: 12,
     title: "Nature Adventure",
     description: "Wild luxury experiences in pristine nature",
-    image: "/play_in_nature.jpg",
+    image: "https://www.priveescape.com/play_in_nature.jpg",
     category: "Nature"
   },
   {
     id: 13,
     title: "Luxury Pool",
     description: "Private pool experiences with premium amenities",
-    image: "/shots_in_pool.jpg",
+    image: "https://www.priveescape.com/shots_in_pool.jpg",
     category: "Luxury"
   },
   {
     id: 14,
     title: "Yacht Experience",
     description: "Exclusive yacht experiences with luxury amenities",
-    image: "/boat_party.jpg",
+    image: "https://www.priveescape.com/boat_party.jpg",
     category: "Luxury"
   },
   {
     id: 15,
     title: "Group Cheers",
     description: "Celebrate with friends in exclusive settings",
-    image: "/cheers_in_group.png",
+    image: "https://www.priveescape.com/cheers_in_group.png",
     category: "Nightlife"
   },
   {
     id: 16,
     title: "Sunset Dinner",
     description: "Romantic dining experiences at sunset",
-    image: "/dinner_on_sunset.png",
+    image: "https://www.priveescape.com/dinner_on_sunset.png",
     category: "Dining"
   },
   {
     id: 17,
     title: "Women's Dinner",
     description: "Exclusive dining experiences for women",
-    image: "/dinner_with_women.png",
+    image: "https://www.priveescape.com/dinner_with_women.png",
     category: "Dining"
   },
   {
     id: 18,
     title: "Mountain Drinks",
     description: "Enjoy premium beverages with mountain views",
-    image: "/drink_with_boys.png",
+    image: "https://www.priveescape.com/drink_with_boys.png",
     category: "Adventure"
   },
   {
     id: 19,
     title: "Wedding Celebration",
     description: "Luxury wedding and celebration experiences",
-    image: "/wedding.png",
+    image: "https://www.priveescape.com/wedding.png",
     category: "Luxury"
   },
   {
     id: 20,
     title: "Table Experience",
     description: "Premium table service and dining",
-    image: "/table_1.png",
+    image: "https://www.priveescape.com/table_1.png",
     category: "Dining"
   }
 ];
@@ -264,7 +264,7 @@ export default function Gallery() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/60"></div>
           <Image 
-            src="/plane.jpg" 
+            src="https://www.priveescape.com/plane.jpg" 
             alt="Gallery Hero" 
             fill
             className="object-cover opacity-30"
