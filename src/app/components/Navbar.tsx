@@ -60,7 +60,7 @@ export default function Navbar() {
   return (
     <>
       <nav 
-        className={`fixed top-0 left-0 w-full z-40 transition-all duration-300 ${scrolled ? 'bg-black/90 shadow-lg backdrop-blur-sm py-2' : 'bg-transparent py-4'}`}
+        className="fixed top-0 left-0 w-full z-40 transition-all duration-300 bg-black shadow-lg py-2"
         aria-label="Main navigation"
       >
         <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
@@ -71,13 +71,19 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="#" className="text-white hover:text-gold transition-colors">
-              Despre Noi
+            <Link href="/" className="text-white hover:text-gold transition-colors">
+              Home
             </Link>
-            <Link href="#" className="text-white hover:text-gold transition-colors">
-              Experiențe
+            <Link href="/about" className="text-white hover:text-gold transition-colors">
+              About
             </Link>
-            <Link href="#contact" className="btn text-sm py-2 px-4">
+            <Link href="/gallery" className="text-white hover:text-gold transition-colors">
+              Gallery
+            </Link>
+            <Link href="/pricing" className="text-white hover:text-gold transition-colors">
+              Pricing
+            </Link>
+            <Link href="/contact" className="text-white hover:text-gold transition-colors">
               Contact
             </Link>
           </div>
@@ -114,40 +120,65 @@ export default function Navbar() {
         id="mobile-menu"
         className={`mobile-menu ${isMenuOpen ? 'open' : ''} p-6`}
         aria-hidden={!isMenuOpen}
-        style={{ maxWidth: '100vw' }}
       >
         <div className="flex flex-col space-y-8 mt-16 overflow-y-auto max-h-[calc(100vh-2rem)]">
           <div className="border-b border-gray-800 pb-2">
             <Link 
-              href="#" 
+              href="/" 
               className="text-white hover:text-gold transition-colors text-xl block w-full"
               onClick={() => setIsMenuOpen(false)}
             >
               <span className="flex items-center">
-                <span className="text-gold mr-2">01.</span> Despre Noi
+                <span className="text-gold mr-2">01.</span> Home
               </span>
             </Link>
           </div>
           
           <div className="border-b border-gray-800 pb-2">
             <Link 
-              href="#" 
+              href="/about" 
               className="text-white hover:text-gold transition-colors text-xl block w-full"
               onClick={() => setIsMenuOpen(false)}
             >
               <span className="flex items-center">
-                <span className="text-gold mr-2">02.</span> Experiențe
+                <span className="text-gold mr-2">02.</span> About
               </span>
             </Link>
           </div>
           
-          <div className="mt-8">
+          <div className="border-b border-gray-800 pb-2">
             <Link 
-              href="#contact" 
-              className="btn text-center block w-full transition-all hover:scale-105"
+              href="/gallery" 
+              className="text-white hover:text-gold transition-colors text-xl block w-full"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contact
+              <span className="flex items-center">
+                <span className="text-gold mr-2">03.</span> Gallery
+              </span>
+            </Link>
+          </div>
+          
+          <div className="border-b border-gray-800 pb-2">
+            <Link 
+              href="/pricing" 
+              className="text-white hover:text-gold transition-colors text-xl block w-full"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <span className="flex items-center">
+                <span className="text-gold mr-2">04.</span> Pricing
+              </span>
+            </Link>
+          </div>
+          
+          <div className="border-b border-gray-800 pb-2">
+            <Link 
+              href="/contact" 
+              className="text-white hover:text-gold transition-colors text-xl block w-full"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <span className="flex items-center">
+                <span className="text-gold mr-2">05.</span> Contact
+              </span>
             </Link>
           </div>
           
