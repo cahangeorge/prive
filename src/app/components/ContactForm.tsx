@@ -44,7 +44,7 @@ export default function ContactForm({
       } else {
         setSubmitMessage('Eroare la trimiterea mesajului. | Error sending message.');
       }
-    } catch (error) {
+    } catch {
       setSubmitMessage('Eroare la trimiterea mesajului. | Error sending message.');
     } finally {
       setIsSubmitting(false);

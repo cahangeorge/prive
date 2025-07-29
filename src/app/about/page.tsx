@@ -81,7 +81,7 @@ export default function About() {
           
           <div className="bg-gradient-to-br from-[#111] to-[#0a0a0a] p-6 xs:p-8 sm:p-10 md:p-12 lg:p-16 rounded-xl xs:rounded-2xl border border-[#333] max-w-5xl mx-auto">
             <p className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-4 xs:mb-6 sm:mb-8 leading-relaxed text-center">
-              We create what money can't usually buy – private, unforgettable moments in rare locations.
+              We create what money can&apos;t usually buy – private, unforgettable moments in rare locations.
             </p>
             <p className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl text-gray-400 leading-relaxed text-center">
               Creăm ceea ce banii nu pot cumpăra de obicei – momente private, de neuitat, în locuri rare.

@@ -253,7 +253,7 @@ export default function Gallery() {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [currentIndex, maxIndex, itemsPerView]);
+  }, [currentIndex, maxIndex, itemsPerView, nextSlide]);
 
   return (
     <main className="font-sans">

@@ -17,27 +17,19 @@ export default function Contact() {
     budget: '',
     preferredDate: ''
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
-
   useEffect(() => {
     setIsLoaded(true);
   }, []);
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
+  // Form submission logic removed for now
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   // Form submission logic here
+  // };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    try {
-      // Simulate form submission
+  // Placeholder for form submission
+  if (false) {
+    // This prevents unused variable warnings while keeping the structure
       await new Promise(resolve => setTimeout(resolve, 2000));
       
       // Here you would typically send the data to your backend
@@ -84,7 +76,7 @@ export default function Contact() {
             Contact <span className="text-[#D4AF37]">Privé Escapes</span>
           </h1>
           <h2 className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-300 mb-8 xs:mb-10 sm:mb-12 md:mb-14 lg:mb-16 font-light leading-relaxed px-2 xs:px-0">
-            Let's create your unforgettable private experience
+            Let&apos;s create your unforgettable private experience
           </h2>
         </div>
       </header>
