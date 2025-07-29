@@ -164,7 +164,7 @@ function PackageDetailsContent() {
       <section className="py-20 px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%]">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl xs:text-4xl sm:text-5xl font-bold text-center mb-16 text-[#D4AF37]" style={{ color: '#D4AF37' }}>
-            What's Included
+            What&apos;s Included
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {packageData.features.map((feature, index) => (

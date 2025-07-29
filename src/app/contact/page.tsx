@@ -84,7 +84,7 @@ export default function Contact() {
             Contact <span className="text-[#D4AF37]">Privé Escapes</span>
           </h1>
           <h2 className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-300 mb-8 xs:mb-10 sm:mb-12 md:mb-14 lg:mb-16 font-light leading-relaxed px-2 xs:px-0">
-            Let's create your unforgettable private experience
+            Let&apos;s create your unforgettable private experience
           </h2>
         </div>
       </header>
