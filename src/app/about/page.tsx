@@ -42,7 +42,7 @@ export default function About() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/60"></div>
           <Image 
-            src="https://www.priveescape.com/nature.png" 
+            src="https://media.priveescape.com/nature.png" 
             alt="About Privé Escapes" 
             fill
             className="object-cover opacity-30"
@@ -160,7 +160,7 @@ export default function About() {
           <div className="group step-container bg-gradient-to-br from-[#111] to-[#0a0a0a] p-4 xs:p-6 sm:p-8 md:p-10 rounded-lg xs:rounded-xl transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden touch-manipulation">
             <div className="absolute inset-0 z-0">
               <Image 
-                src="https://www.priveescape.com/prive_qr.png" 
+                src="https://media.priveescape.com/prive_qr.png" 
                 alt="QR Code background" 
                 fill
                 className="object-cover opacity-40 group-hover:opacity-55 transition-opacity duration-500"
@@ -183,7 +183,7 @@ export default function About() {
           <div className="group step-container bg-gradient-to-br from-[#111] to-[#0a0a0a] p-4 xs:p-6 sm:p-8 md:p-10 rounded-lg xs:rounded-xl transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden touch-manipulation">
             <div className="absolute inset-0 z-0">
               <Image 
-                 src="https://www.priveescape.com/prive_box.png" 
+                 src="https://media.priveescape.com/prive_box.png" 
                  alt="Prive box background" 
                  fill
                  className="object-cover opacity-40 group-hover:opacity-55 transition-opacity duration-500"
@@ -206,7 +206,7 @@ export default function About() {
           <div className="group step-container bg-gradient-to-br from-[#111] to-[#0a0a0a] p-4 xs:p-6 sm:p-8 md:p-10 rounded-lg xs:rounded-xl transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden touch-manipulation sm:col-span-2 lg:col-span-1">
             <div className="absolute inset-0 z-0">
               <Image 
-                src="https://www.priveescape.com/cheers_in_car.jpg" 
+                src="https://media.priveescape.com/cheers_in_car.jpg" 
                 alt="Car celebration background" 
                 fill
                 className="object-cover opacity-40 group-hover:opacity-55 transition-opacity duration-500"

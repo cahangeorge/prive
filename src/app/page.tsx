@@ -64,7 +64,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/60"></div>
           <Image 
-            src="https://www.priveescape.com/nature.png" 
+            src="https://media.priveescape.com/nature.png" 
             alt="Luxury nature experience" 
             fill
             className="object-cover opacity-30"
@@ -94,7 +94,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/70"></div>
           {/* <Image 
-            src="https://www.priveescape.com/dinner.png" 
+            src="https://media.priveescape.com/dinner.png" 
             alt="Luxury dining experience" 
             fill
             className="object-cover opacity-20"
@@ -133,7 +133,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-black/60 to-black/80"></div>
           {/* <Image 
-            src="https://www.priveescape.com/cave.jpg" 
+            src="https://media.priveescape.com/cave.jpg" 
             alt="Cave experience background" 
             fill
             className="object-cover opacity-15"
@@ -152,7 +152,7 @@ export default function Home() {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
               <Image 
-                src="https://www.priveescape.com/prive_qr.png" 
+                src="https://media.priveescape.com/prive_qr.png" 
                 alt="QR Code background" 
                 fill
                 className="object-cover opacity-40 group-hover:opacity-55 transition-opacity duration-500"
@@ -176,7 +176,7 @@ export default function Home() {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
               <Image 
-                 src="https://www.priveescape.com/prive_box.png" 
+                 src="https://media.priveescape.com/prive_box.png" 
                  alt="Prive box background" 
                  fill
                  className="object-cover opacity-40 group-hover:opacity-55 transition-opacity duration-500"
@@ -200,7 +200,7 @@ export default function Home() {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
               <Image 
-                 src="https://www.priveescape.com/drink_night.jpg" 
+                 src="https://media.priveescape.com/drink_night.jpg" 
                  alt="Night drinks background" 
                  fill
                  className="object-cover opacity-40 group-hover:opacity-55 transition-opacity duration-500"
@@ -242,7 +242,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 xs:gap-8 mb-12 xs:mb-16">
             <div className="relative overflow-hidden rounded-xl group">
               <Image 
-                src="https://www.priveescape.com/nature.png" 
+                src="https://media.priveescape.com/nature.png" 
                 alt="Nature Experience" 
                 width={400}
                 height={300}
@@ -257,7 +257,7 @@ export default function Home() {
             
             <div className="relative overflow-hidden rounded-xl group">
               <Image 
-                src="https://www.priveescape.com/dinner.png" 
+                src="https://media.priveescape.com/dinner.png" 
                 alt="Dining Experience" 
                 width={400}
                 height={300}
@@ -272,7 +272,7 @@ export default function Home() {
             
             <div className="relative overflow-hidden rounded-xl group">
               <Image 
-                src="https://www.priveescape.com/plane.jpg" 
+                src="https://media.priveescape.com/plane.jpg" 
                 alt="Luxury Travel" 
                 width={400}
                 height={300}

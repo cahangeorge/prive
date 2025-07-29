@@ -37,7 +37,7 @@ export default function PricingPackages({ showTitle = true }: PricingPackagesPro
             {/* Background Image */}
             <div className="absolute inset-0">
               <Image 
-                src="https://www.priveescape.com/package_35k.jpg" 
+                src="https://media.priveescape.com/package_35k.jpg" 
                 alt="Évasion Privée - €35,000 Package" 
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -91,7 +91,7 @@ export default function PricingPackages({ showTitle = true }: PricingPackagesPro
             {/* Background Image */}
             <div className="absolute inset-0">
               <Image 
-                src="https://www.priveescape.com/package_50k.jpg" 
+                src="https://media.priveescape.com/package_50k.jpg" 
                 alt="Signature Moments - €60,000 Package" 
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -149,7 +149,7 @@ export default function PricingPackages({ showTitle = true }: PricingPackagesPro
             {/* Background Image */}
             <div className="absolute inset-0">
               <Image 
-                src="https://www.priveescape.com/package_90k.jpg" 
+                src="https://media.priveescape.com/package_90k.jpg" 
                 alt="L'Art de Vivre - €90,000 Package" 
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -213,7 +213,7 @@ export default function PricingPackages({ showTitle = true }: PricingPackagesPro
             {/* Background Image */}
             <div className="absolute inset-0">
               <Image 
-                src="https://www.priveescape.com/package_180k.jpg" 
+                src="https://media.priveescape.com/package_180k.jpg" 
                 alt="Immortelle - €180,000 Package" 
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-700"

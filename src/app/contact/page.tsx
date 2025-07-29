@@ -71,7 +71,7 @@ export default function Contact() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/60"></div>
           <Image 
-            src="https://www.priveescape.com/make_the_dinner.jpg" 
+            src="https://media.priveescape.com/make_the_dinner.jpg" 
             alt="Contact Privé Escapes" 
             fill
             className="object-cover opacity-30"

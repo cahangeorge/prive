@@ -15,7 +15,7 @@ export default function ExperienceSections({ showAll = true }: ExperienceSection
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-black/75 via-black/55 to-black/75"></div>
           <Image 
-            src="https://www.priveescape.com/cave.jpg" 
+            src="https://media.priveescape.com/cave.jpg" 
             alt="Sunset dining background" 
             fill
             className="object-cover opacity-25"
@@ -64,7 +64,7 @@ export default function ExperienceSections({ showAll = true }: ExperienceSection
       {/* EXCLUSIVE DINING SECTION */}
       <section className="nda-section px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden m-4 rounded-2xl">
         <Image 
-          src="https://www.priveescape.com/dinner_on_sunset.png" 
+          src="https://media.priveescape.com/dinner_on_sunset.png" 
           alt="Background" 
           fill
           className="object-cover opacity-30 z-0"
@@ -115,7 +115,7 @@ export default function ExperienceSections({ showAll = true }: ExperienceSection
           {/* NATURE EXPERIENCES SECTION */}
           <section className="nda-section px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden m-4 rounded-2xl">
             <Image 
-              src="https://www.priveescape.com/nature.png" 
+              src="https://media.priveescape.com/nature.png" 
               alt="Background" 
               fill
               className="object-cover opacity-30 z-0 rounded-2xl"
@@ -164,7 +164,7 @@ export default function ExperienceSections({ showAll = true }: ExperienceSection
           {/* EXPERIENCE BESPOKE SECTION */}
           <section className="nda-section px-6 xs:px-8 sm:px-10 md:px-[8%] lg:px-[10%] py-16 xs:py-20 sm:py-24 relative overflow-hidden m-4 rounded-2xl">
             <Image 
-              src="https://www.priveescape.com/table_1.png" 
+              src="https://media.priveescape.com/table_1.png" 
               alt="Background" 
               fill
               className="object-cover opacity-30 z-0 rounded-2xl"
