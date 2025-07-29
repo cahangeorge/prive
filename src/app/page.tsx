@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-// import useResponsive from './hooks/useResponsive'; // Removed unused import
+import useResponsive from './hooks/useResponsive';
 import Navbar from './components/Navbar';
 import ExperienceSections from './components/ExperienceSections';
 import PricingPackages from './components/PricingPackages';
@@ -79,7 +79,7 @@ export default function Home() {
             <span className="text-[#D4AF37]"> Crafted for You</span>
           </h1>
           <h2 className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-300 mb-8 xs:mb-10 sm:mb-12 md:mb-14 lg:mb-16 font-light leading-relaxed px-2 xs:px-4">
-            Bespoke luxury events in the world&apos;s most extraordinary locations.
+            Bespoke luxury events in the world's most extraordinary locations.
           </h2>
           <a href="#contact" className="btn text-xs xs:text-sm sm:text-base md:text-lg inline-block mx-auto px-4 xs:px-6 sm:px-8 md:px-10 py-3 xs:py-4 sm:py-5 min-h-[44px] xs:min-h-[48px] touch-manipulation">
             Request Your Invitation
@@ -117,7 +117,7 @@ export default function Home() {
           
           <div className="bg-gradient-to-br from-[#111] to-[#0a0a0a] p-8 xs:p-10 sm:p-12 md:p-16 rounded-xl xs:rounded-2xl border border-[#333] max-w-5xl mx-auto">
             <p className="text-base xs:text-lg sm:text-xl md:text-2xl text-gray-300 mb-6 xs:mb-8 leading-relaxed text-center">
-              We create what money can&apos;t usually buy – private, unforgettable moments in rare locations.
+              We create what money can't usually buy – private, unforgettable moments in rare locations.
             </p>
             <p className="text-sm xs:text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed text-center">
               Creăm ceea ce banii nu pot cumpăra de obicei – momente private, de neuitat, în locuri rare.

@@ -158,7 +158,7 @@ export default function PricingPackages({ showTitle = true }: PricingPackagesPro
             </div>
             <div className="relative z-10 p-8 xs:p-10 sm:p-12 h-full flex flex-col justify-end">
             <div className="flex items-center justify-between mb-6">
-              <h4 className="text-xl xs:text-2xl sm:text-3xl font-bold text-white">🕊 L&apos;Art de Vivre</h4>
+              <h4 className="text-xl xs:text-2xl sm:text-3xl font-bold text-white">🕊 L'Art de Vivre</h4>
               <div className="text-right">
                 <div className="text-2xl xs:text-3xl sm:text-4xl font-bold text-[#D4AF37]">€90,000</div>
               </div>
@@ -173,7 +173,7 @@ export default function PricingPackages({ showTitle = true }: PricingPackagesPro
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-1.5 h-1.5 bg-[#D4AF37] rounded-full mt-2 flex-shrink-0"></div>
-                <span>Full setup created from scratch, adapted to the client&apos;s dream</span>
+                <span>Full setup created from scratch, adapted to the client's dream</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-1.5 h-1.5 bg-[#D4AF37] rounded-full mt-2 flex-shrink-0"></div>
@@ -197,7 +197,7 @@ export default function PricingPackages({ showTitle = true }: PricingPackagesPro
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-1.5 h-1.5 bg-[#D4AF37] rounded-full mt-2 flex-shrink-0"></div>
-                <span>Premium insurance in the client&apos;s name</span>
+                <span>Premium insurance in the client's name</span>
               </li>
             </ul>
             </div>

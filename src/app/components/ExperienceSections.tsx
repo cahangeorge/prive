@@ -40,7 +40,7 @@ export default function ExperienceSections({ showAll = true }: ExperienceSection
                 Descoperiți magia unei cine romantice în adâncurile pământului, unde lumina lumânărilor dansează pe pereții de piatră milenară. O experiență culinară unică, departe de ochii lumii.
               </p>
               <p className="text-xs xs:text-sm sm:text-base text-gray-400 mb-8 xs:mb-10 leading-relaxed">
-                Discover the magic of a romantic dinner in the depths of the earth, where candlelight dances on millennial stone walls. A unique culinary experience, away from the world&apos;s eyes.
+                Discover the magic of a romantic dinner in the depths of the earth, where candlelight dances on millennial stone walls. A unique culinary experience, away from the world's eyes.
               </p>
               <div className="space-y-4 xs:space-y-5">
                 <div className="flex items-start space-x-3 xs:space-x-4">
@@ -186,7 +186,7 @@ export default function ExperienceSections({ showAll = true }: ExperienceSection
                     Lux fără limite. Experiențe personalizate în cele mai inaccesibile colțuri ale lumii, create pentru a îndeplini imposibilul.
                   </p>
                   <p className="text-xs xs:text-sm sm:text-base text-gray-400 mb-8 xs:mb-10 leading-relaxed">
-                    Luxury without limits. Tailored experiences in the world&apos;s most inaccessible places, crafted to fulfill the impossible.
+                    Luxury without limits. Tailored experiences in the world's most inaccessible places, crafted to fulfill the impossible.
                   </p>
                   <div className="space-y-3 xs:space-y-4">
                     <div className="flex items-start space-x-2 xs:space-x-3">
